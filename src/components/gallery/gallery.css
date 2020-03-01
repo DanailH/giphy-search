@@ -1,0 +1,14 @@
+.gallery-container {
+  display: flex;
+}
+
+.gallery-column {
+  flex: 1;
+  max-width: 33%;
+}
+
+.gallery-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}

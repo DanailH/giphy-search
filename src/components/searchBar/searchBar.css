@@ -1,0 +1,35 @@
+.search-bar {
+  margin-top: 50px;
+  position: -webkit-sticky;
+  border-radius: 25px;
+  border: 1px solid #dbdbdb;
+  background: #f9f9f9;
+  max-width: 250px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  /* Safari */
+  position: sticky;
+  top: 20px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.75rem 1.5rem 0.75rem;
+  font-size: 0.8rem;
+  border-radius: 25px;
+  border: none;
+  background: #f9f9f9;
+}
+
+.search-input:focus,
+.search-button:focus {
+  outline: none;
+}
+
+.search-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+

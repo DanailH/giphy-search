@@ -1,0 +1,13 @@
+.gallery-item {
+  border: 1px solid #dbdbdb;
+  padding: 8px;
+}
+
+.img-fluid {
+  max-width: 480px;
+  width: 100%;
+}
+
+.img-static {
+  width: 480px;
+}
